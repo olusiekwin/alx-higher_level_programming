@@ -5,7 +5,9 @@
 **Project Status**: Ongoing second chance project - started Oct 17, 2023 6:00 AM, must end by Oct 20, 2023 6:00 AM
 **Auto QA Review**: 0.0/104 mandatory & 0.0/24 optional
 **Completion**: 0.0% (Mandatory: 0.0%, Optional: 0.0%)
-https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/rtcwz.jpg
+
+![image](https://github.com/olusiekwin/alx-higher_level_programming/assets/85841088/68fcca65-7b6d-4d06-a3cf-948120dda46a)
+
 
 ## Table of Contents
 
