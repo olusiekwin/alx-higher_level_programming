@@ -135,6 +135,5 @@ id  name
 7   Suspense
 8   Thriller
 $
-```01~
+```
 ![image](https://github.com/olusiekwin/alx-higher_level_programming/assets/85841088/28e8b8c5-63dd-46f9-af39-1048e50ea230)
-
