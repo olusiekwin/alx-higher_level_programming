@@ -6,6 +6,9 @@
 **Auto QA Review**: 0.0/104 mandatory & 0.0/24 optional
 **Completion**: 0.0% (Mandatory: 0.0%, Optional: 0.0%)
 
+![image](https://github.com/olusiekwin/alx-higher_level_programming/assets/85841088/68fcca65-7b6d-4d06-a3cf-948120dda46a)
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
