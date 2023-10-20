@@ -1,7 +1,8 @@
 
 # 0x0E. SQL - More queries
 
-**Technology:** SQL, MySQL
+**Technology:**
+`SQL`, `MySQL`
 **Author:** Guillaume
 **Weight:** 1
 **Project Status:** Ongoing (second chance project) - started on Oct 18, 2023, at 6:00 AM, must end by Oct 20, 2023, at 6:00 AM
@@ -10,6 +11,8 @@
 **Mandatory:** 0.0%
 **Optional:** 0.0%
 **Calculation:** 0.0% + (0.0% * 0.0%) == 0.0%
+
+![image](https://github.com/olusiekwin/alx-higher_level_programming/assets/85841088/605d0499-492e-458b-8c31-b25a0eed475b)
 
 ## Resources
 - [How To Create a New User and Grant Permissions in MySQL](link)
@@ -133,3 +136,5 @@ id  name
 8   Thriller
 $
 ```01~
+![image](https://github.com/olusiekwin/alx-higher_level_programming/assets/85841088/28e8b8c5-63dd-46f9-af39-1048e50ea230)
+
