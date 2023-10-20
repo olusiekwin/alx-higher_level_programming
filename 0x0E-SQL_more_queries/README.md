@@ -1,4 +1,4 @@
-```markdown
+
 # 0x0E. SQL - More queries
 
 **Technology:** SQL, MySQL
