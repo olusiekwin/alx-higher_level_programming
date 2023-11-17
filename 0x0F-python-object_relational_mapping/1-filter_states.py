@@ -1,33 +1,39 @@
 #!/usr/bin/python3
 """
-Script that lists all states with a name starting with N (upper N)
-from the database hbtn_0e_0_usa using MySQLdb.
+Module Docs
 """
-
+from sys import argv
 import MySQLdb
-import sys
+
+
+def main():
+    """
+    Function DOC
+    """
+    db_user = argv[1]
+    db_password = argv[2]
+    db_db = argv[3]
+    db_host = "localhost"
+    db_port = 3306
+
+    try:
+        query_string = "SELECT * FROM states WHERE CONVERT(name USING Latin1)"
+        query_string += " COLLATE Latin1_General_CS"
+        query_string += " LIKE 'N%'"
+        conn = MySQLdb.connect(host=db_host, port=db_port,
+                               user=db_user, passwd=db_password,
+                               db=db_db, charset="utf8")
+        try:
+            cur = conn.cursor()
+            cur.execute(query_string)
+            query_rows = cur.fetchall()
+            for row in query_rows:
+                print(row)
+        finally:
+            cur.close()
+    finally:
+        conn.close()
+
 
 if __name__ == "__main__":
-    # Get command line arguments
-    username = sys.argv[1]
-    password = sys.argv[2]
-    database = sys.argv[3]
-
-    # Connect to MySQL server
-    db = MySQLdb.connect(host="localhost", port=3306, user=username,
-                         passwd=password, db=database)
-    cursor = db.cursor()
-
-    # Execute the SQL query
-    cursor.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id")
-
-    # Fetch all the rows
-    rows = cursor.fetchall()
-
-    # Display the results
-    for row in rows:
-        print(row)
-
-    # Close the cursor and database connection
-    cursor.close()
-    db.close()
+    main()
