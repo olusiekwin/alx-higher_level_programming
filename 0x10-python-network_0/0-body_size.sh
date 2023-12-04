@@ -1,4 +1,3 @@
 #!/bin/bash
-# Docs
-curl -sI "$1" | grep -i Content-Length | awk '{print $2}'
-
+# Docs 
+curl -w "%{size_download}\n" "$1" -so /dev/null
