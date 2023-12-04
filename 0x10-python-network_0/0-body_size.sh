@@ -1,6 +1,4 @@
 #!/bin/bash
-# This script takes a URL, sends a request, and displays the size of the response body in bytes.
-
-# Send a request to the specified URL, follow redirects, and output only the size of the body in bytes
+# Docs
 curl -sI "$1" | grep -i Content-Length | awk '{print $2}'
 
